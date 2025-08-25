@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "AI Model Server is running"
+    return "MAVA  Server is running"
 
 @app.route('/predict', methods=['GET'])
 def predict():
@@ -23,6 +23,7 @@ def predict():
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=5000, debug=True)
+
 
 
 
