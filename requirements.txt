@@ -1,7 +1,5 @@
-pandas             //for import the pandas lib
-numpy            // for import the numpy lib
-scikit-learn  //for import the scikit  lib
-flask         // for import the flask lib
-gunicorn       // for import the flask lib
-
-
+pandas             
+numpy            
+scikit-learn 
+flask         
+gunicorn       
